@@ -22,4 +22,3 @@ connection.connect(function (err) {
 
 // Export the connection.
 module.exports = connection;
-connection.connect();
