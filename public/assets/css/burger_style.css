@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Creepster|Chicle|Jolly+Lodger');
+
+h1, h3 {
+  font-weight: bold;
+  color: white; 
+}
+
+ul {
+  list-style-type: none;
+}
+
+.page-footer {
+  background-color:lightcoral !important;
+  color: black !important;
+}
+
+body {
+  background-image:url('https://static01.nyt.com/images/2018/07/29/magazine/29mag-eat-image1/29mag-eat-image1-articleLarge.jpg?quality=75&auto=webp&disable=upscale');
+}
+
+#burger_name {
+  background-color: white;
+}
+
+#bizname {
+  font-family: 'Creepster', cursive;
+}
+
+#hungryquest {
+  font-family: 'Chicle', cursive;
+}
+#title2, #title3 {
+  font-family: 'Jolly Lodger', cursive;
+  font-size: 3em;
+}
+textarea {
+    padding-top: .75em;
+    white-space: normal;
+    text-align: justify;
+    -moz-text-align-last: center; /* Firefox 12+ */
+    text-align-last: center;
+}
