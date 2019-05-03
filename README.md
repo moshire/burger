@@ -5,8 +5,7 @@
 In this assignment, you'll create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Be sure to follow the MVC design pattern; use Node and MySQL to query and route data in your app, and Handlebars to generate your HTML.
 
 
-* **This assignment must be deployed.** Be sure to utilize the [MYSQL Heroku Deployment Guide](../../Supplemental/MySQLHerokuDeploymentProcess.pdf) in order to deploy your assignment.
-
+* **you can see my my heroku live demo here.** Be sure to utilize the [live Demo](https://thawing-harbor-15407.herokuapp.com/)
 ### Before You Begin
 
 * Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
