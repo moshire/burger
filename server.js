@@ -21,8 +21,6 @@ app.set("view engine", "handlebars");
 //Imports the routes from burgers_controller
 var routes = require('./controllers/burgers_controller.js');
 app.use('/',routes);
-
-app.listen(PORT, function () {
-
-    console.log('App listening on PORT' + PORT);
-});
+//sets up the port as a variable and listens to it
+var port = process.env.PORT || 3000;
+app.listen(port, () => console.log("Listening on port %s", port));
